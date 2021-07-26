@@ -15,3 +15,14 @@
     }
   }
 }
+.product-detail {
+  padding: .5em;
+  .swiper-slide {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    img {
+      width: 100%;
+    }
+  }
+}
