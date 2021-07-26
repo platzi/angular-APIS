@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MyStoreApi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
@@ -26,6 +25,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# angular-APIS
->>>>>>> 7b8620025cf4d5e081b14860c412a85c00f0aca4
