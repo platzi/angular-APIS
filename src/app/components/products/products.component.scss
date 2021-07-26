@@ -1,0 +1,22 @@
+.products--grid {
+  display: flex;
+  flex-direction: column;
+}
+
+// tablets
+@media screen and (min-width: 40em) and (max-width: 63.9em){
+  .products--grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+  }
+}
+
+// web
+@media screen and (min-width: 64em){
+  .products--grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+  }
+}
