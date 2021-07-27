@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  API_URL: '',
+  API_URL: 'https://young-sands-07814.herokuapp.com',
 };
 
 /*
