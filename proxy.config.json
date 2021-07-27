@@ -1,0 +1,8 @@
+{
+  "/api/*": {
+    "target": "https://young-sands-07814.herokuapp.com",
+    "secure": true,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}
