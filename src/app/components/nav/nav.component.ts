@@ -42,7 +42,6 @@ export class NavComponent implements OnInit {
     .subscribe(user => {
       this.profile = user;
       this.token = '---';
-      this.getProfile();
     });
   }
 
