@@ -36,7 +36,6 @@ export class ProductsComponent implements OnInit {
     this.total = this.storeService.getTotal();
   }
 
-  //creamos metodo para cuadno toquemos el boton cambie de estado
   toggleProductDetail(){
     this.showProductDetail = !this.showProductDetail;
   }

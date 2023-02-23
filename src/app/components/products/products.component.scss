@@ -13,15 +13,15 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  transition: all ease-out .5s;
+  transition: all ease-out 0.5s;
   transform: translateX(100%);
-  &.active{
-  transform: translateX(0);
+  &.active {
+    transform: translateX(0);
   }
-  }
+}
 
 // tablets
-@media screen and (min-width: 40em) and (max-width: 63.9em){
+@media screen and (min-width: 40em) and (max-width: 63.9em) {
   .products--grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -30,7 +30,7 @@
 }
 
 // web
-@media screen and (min-width: 64em){
+@media screen and (min-width: 64em) {
   .products--grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
